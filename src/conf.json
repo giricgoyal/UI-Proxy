@@ -1,0 +1,61 @@
+{
+    "apps": {
+        "planner-plus-ui": [
+            {
+                "spa": "designs",
+                "port": "8081"
+            },
+            {
+                "spa": "design-wizard",
+                "port": "8080"
+            },
+            {
+                "spa": "scenario",
+                "port": "8082"
+            },
+            {
+                "spa": "design-settings",
+                "port": "8083"
+            },
+            {
+                "spa": "sync-accounts-with-salesforce",
+                "port": "8086"
+            }
+        ],
+        "channel-map-ui": [
+            {
+                "spa": "designs",
+                "port": "8085"
+            },
+            {
+                "spa": "design",
+                "port": "8086"
+            },
+            {
+                "spa": "design",
+                "port": "8087"
+            }
+        ],
+        "login": [
+            {
+                "spa": "",
+                "port": "8090"
+            }
+        ],
+        "docs": [
+            {
+                "spa": "",
+                "port": "8070"
+            }
+        ]
+    },
+    "remotes": {
+        "devui": "https://devui.test.apps.ciena.com",
+        "cicd": "https://cicd.apps.ciena.com",
+        "cicdold": "https://cicdold.apps.ciena.com",
+        "uat": "https://uat.apps.ciena.com",
+        "dev": "https://dev.apps.ciena.com",
+        "deveks": "https://deveks.test.apps.ciena.com",
+        "custom": "https://10.186.2.239"
+    } 
+}

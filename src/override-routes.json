@@ -1,0 +1,4 @@
+{
+  "localhost:8096/equipmenttopologyplanning/api/v1/spectrumViewer/aggregatedSpectrumUtilization/c64f873a-9f06-4eed-bba9-19f1fb535715": "http://localhost:3003/",
+  "localhost:8096/scenariobuilder/api/v1/networkdesigns/c64f873a-9f06-4eed-bba9-19f1fb535715/crossconnects": "http://localhost:3003/"
+}

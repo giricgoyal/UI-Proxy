@@ -1,0 +1,33 @@
+{
+  "spectrumViewer": [
+    {
+      "id": "aggregatedSpectrumUtilization",
+      "occupiedFrequencyRangesForCBand": [
+        {
+          "minFequencyThz": "195.325000",
+          "maxFequencyThz": "195.425000"
+        }
+      ],
+      "occupiedFrequencyRangesForLBand": [
+        {
+          "minFequencyThz": "186.050000",
+          "maxFequencyThz": "186.275000"
+        }
+      ]
+    }
+  ],
+  "scenariobuilder": [
+    {
+      "id": "networkdesigns",
+      "data": {
+        "attributes": {
+          "aEndSubmarineFPId": "12",
+          "zEndSubmarineFPId": "23",
+          "minFrequency": 1,
+          "maxFrequency": 2,
+          "selectedPath": ["12", "23"]
+        }
+      }
+    }
+  ]
+}

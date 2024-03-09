@@ -1,0 +1,18 @@
+{
+  "name": "ui-proxy",
+  "private": true,
+  "author": "Giric Goyal <gigoyal@ciena.com>",
+  "devDependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "json-server": "^0.17.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "serve": "json-server --watch ./src/db.json --port 3004 --routes ./src/routes.json --middlewares ./src/middleware.js",
+    "proxy": "nodemon -r dotenv/config ./src/index.js"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "/equipmenttopologyplanning/api/v1/:module/:pathId/*": "/:module/:pathId",
+  "/scenariobuilder/api/v1/:module/:networkId/crossconnects?neid=:neid": "/scenariobuilder/:module/"
+}
